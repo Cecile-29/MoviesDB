@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content 
+    h1 Connexion 
+    form(method="post")
+        p 
+            label(for="username") Identifiant
+            input(type="test" name="username" id="username")
+        p 
+            label(for="password") Mot de passe
+            input(type="test" name="password" id="password")
+        p 
+            button(type="submit") Se connecter
